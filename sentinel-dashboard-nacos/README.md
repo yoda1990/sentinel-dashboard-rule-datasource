@@ -1,6 +1,6 @@
 # Sentinel 控制台
 
-## 部署测试环境 系统代号 j60 
+## 部署测试环境
 
 ## 0. 概述
 
@@ -23,8 +23,8 @@ mvn clean package
 ```bash
 java -Dserver.port=8080 \
 -Dcsp.sentinel.dashboard.server=localhost:8080 \
--Dproject.name=tq-mp-sentinel-dashboard \
--jar target/tq-mp-sentinel-dashboard.jar
+-Dproject.name=sentinel-dashboard \
+-jar target/sentinel-dashboard.jar
 ```
 
 上述命令中我们指定几个 JVM 参数，其中 `-Dserver.port=8080` 是 Spring Boot 的参数，
