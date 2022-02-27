@@ -1,0 +1,38 @@
+**/.target/
+**/.logs/
+*/logs/
+*/*/logs/
+*/target/
+
+# maven ignore
+target/
+overlays/
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.externalToolBuilders/
+.settings/
+.project
+.classpath
+
+# idea ignore
+**/.idea/
+**/*.ipr
+**/*.iws
+**/*.iml
+
+# temp ignore
+**/*.log
+**/*.cache
+**/*.diff
+**/*.patch
+**/*.tmp
+
+# system ignore
+**/.DS_Store
+**/Thumbs.db
+**/logs/
+**/bin/
